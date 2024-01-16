@@ -1,0 +1,40 @@
+{
+  "accounts": {
+    "account{1}": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1679127868580,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x724a127122aca5632396c0c8407d019dde0f74d5f4612fd56cf8eddc8a85e110",
+        "contractName": "SimpleStorage",
+        "bytecode": "608060405234801561001057600080fd5b5060b38061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063471f7cdf14602d575b600080fd5b60336047565b604051603e9190605a565b60405180910390f35b60005481565b6054816073565b82525050565b6000602082019050606d6000830184604d565b92915050565b600081905091905056fea26469706673582212200404342667ba2b68c2b3418525bc1e51554e53d3c85c20f50f8bb701d26e843e64736f6c63430008010033",
+        "linkReferences": {},
+        "from": "account{1}"
+      }
+    }
+  ],
+  "abis": {
+    "0x724a127122aca5632396c0c8407d019dde0f74d5f4612fd56cf8eddc8a85e110": [
+      {
+        "inputs": [],
+        "name": "favoriteNumber",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}

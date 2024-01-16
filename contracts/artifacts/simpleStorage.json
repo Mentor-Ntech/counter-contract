@@ -1,0 +1,55 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122098d22786d52263a03ed9a1bc41369984f877b42ac32cae7221cda2fb35ecf27764736f6c63430006000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP9 0xD2 0x27 DUP7 0xD5 0x22 PUSH4 0xA03ED9A1 0xBC COINBASE CALLDATASIZE SWAP10 DUP5 0xF8 PUSH24 0xB42AC32CAE7221CDA2FB35ECF27764736F6C634300060000 CALLER ",
+			"sourceMap": "31:97:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;31:97:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fdfea264697066735822122098d22786d52263a03ed9a1bc41369984f877b42ac32cae7221cda2fb35ecf27764736f6c63430006000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP9 0xD2 0x27 DUP7 0xD5 0x22 PUSH4 0xA03ED9A1 0xBC COINBASE CALLDATASIZE SWAP10 DUP5 0xF8 PUSH24 0xB42AC32CAE7221CDA2FB35ECF27764736F6C634300060000 CALLER ",
+			"sourceMap": "31:97:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
